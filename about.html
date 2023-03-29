@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tony Antony's Blog</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        color: #333;
+        background-image: url("https://images.pexels.com/photos/3377405/pexels-photo-3377405.jpeg");
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      header {
+        text-align: center;
+        margin: 20px 0;
+      }
+      header h1 {
+        font-size: 36px;
+        margin: 0;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      nav li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+      main {
+        min-height: calc(100vh - 120px);
+      }
+      section {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      footer {
+        text-align: center;
+        font-size: 14px;
+        color: #666;
+        margin: 20px 0;
+      }
+
+      /* Responsive design */
+      @media (max-width: 600px) {
+        header h1 {
+          font-size: 24px;
+        }
+        nav li {
+          display: block;
+          margin: 10px 0;
+        }
+        section {
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tony Antony</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+    <section id="about">
+      <h2>About Me</h2>
+      <img
+        src="https://imgix.ranker.com/list_img_v2/13836/2773836/original/list-of-lizard-characters-u1"
+        alt="Your photo"
+        width="400"
+      />
+      <p>Write something about yourself here.</p>
+    </section>
+    <footer>&copy; Tony Antony. All rights reserved.</footer>
+  </body>
+</html>
