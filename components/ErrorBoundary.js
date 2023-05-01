@@ -1,4 +1,4 @@
-import * as Sentry from '@sentry/nextjs'
+// import * as Sentry from '@sentry/nextjs'
 import * as React from 'react'
 
 class ErrorBoundary extends React.Component {
@@ -11,7 +11,7 @@ class ErrorBoundary extends React.Component {
   }
   componentDidCatch(error, errorInfo) {
     // You can use your own error logging service here
-    Sentry.captureException(errorInfo)
+    // Sentry.captureException(errorInfo)
   }
   render() {
     // Check if the error is thrown
