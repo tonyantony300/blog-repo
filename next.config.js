@@ -1,4 +1,4 @@
-const { withSentryConfig } = require('@sentry/nextjs')
+// const { withSentryConfig } = require('@sentry/nextjs')
 
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
