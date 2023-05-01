@@ -1,0 +1,27 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Tony Antony | Engineer, Full-stack developer</title>
+      <link>https://www.tonyantony.xyz/blog</link>
+      <description>Tony Antony&#39;s Digital Garden.</description>
+      <language>en-us</language>
+      <managingEditor>tonyantony300@gmail.com (Tony Antony)</managingEditor>
+      <webMaster>tonyantony300@gmail.com (Tony Antony)</webMaster>
+      <lastBuildDate>Wed, 26 Apr 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.tonyantony.xyz/tags/frameworks/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.tonyantony.xyz/blog/react-vue-front-framework</guid>
+    <title>Comparing React and Vue.js for Complex Engineering Applications</title>
+    <link>https://www.tonyantony.xyz/blog/react-vue-front-framework</link>
+    <description>
+Image courteous of [Max Duzij at Unsplash](https://unsplash.com/@max_duz).
+
+As web applications have become more complex, so has the need for more so...</description>
+    <pubDate>Wed, 26 Apr 2023 00:00:00 GMT</pubDate>
+    <author>tonyantony300@gmail.com (Tony Antony)</author>
+    <category>Frameworks</category><category>React</category><category>Vue</category>
+  </item>
+
+    </channel>
+  </rss>

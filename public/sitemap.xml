@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.tonyantony.xyz/about</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/blog</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/projects</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/tags</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/uses</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/tags/react</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/tags/frameworks</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/tags/vue</loc>
+  </url>
+</urlset>
