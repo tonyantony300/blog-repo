@@ -1,0 +1,63 @@
+---
+title: Comparing React and Vue.js for Complex Engineering Applications
+tags: ['Frameworks', 'React', 'Vue']
+date: '2023-04-26'
+images: ['/static/images/posts/computer.jpg']
+authors: ['tony']
+draft: false
+canonicalUrl: https://www.google.com
+---
+
+<Image
+  className="w-full rounded-xl"
+  alt="library shelf"
+  src="/static/images/posts/computer.jpg"
+  layout="responsive"
+  width={450}
+  height={250}
+/>
+
+<TOCInline toc={props.toc} asDisclosure toHeading={3} />
+
+Image courteous of [Max Duzij at Unsplash](https://unsplash.com/@max_duz).
+
+As web applications have become more complex, so has the need for more sophisticated front-end development tools. Front-end frameworks like React and Vue.js have emerged to simplify development and enhance maintainability. In this post, we'll explore why developers prefer to use front-end frameworks, and compare React and Vue.js for building complex engineering applications.
+
+## Why Use Front-End Frameworks? 📃
+
+- Efficiency: Front-end frameworks provide a pre-built foundation for developers to work with. They can streamline the development process, allowing developers to focus on the application logic and functionality rather than writing boilerplate code.
+
+- Consistency: Using a framework ensures that code is written in a consistent manner, reducing the risk of bugs and making it easier for developers to maintain the codebase.
+
+- Community support: Popular front-end frameworks like React and Vue.js have large and active communities. This means that developers can get help with troubleshooting, contribute to the framework, and find pre-written code snippets to speed up development.
+
+## React vs Vue.js for Complex Engineering Applications 📂
+
+React and Vue.js are two of the most popular front-end frameworks. They both offer similar benefits, but have some differences in terms of maintainability and ease of use for complex engineering applications.
+
+React is known for its flexibility and performance. It's a great choice for complex applications that require dynamic and interactive interfaces. React uses a component-based architecture, which makes it easy to break down an application into smaller, reusable pieces of code. This makes maintenance easier and enhances code readability. However, React has a steeper learning curve than Vue.js and requires a more in-depth understanding of JavaScript.
+
+Vue.js, on the other hand, is known for its ease of use and simplicity. It's a great choice for smaller applications or when speed of development is a priority. Vue.js uses a template-based architecture, which makes it easier for developers to create and manipulate the DOM. This means that developers with less experience can get up and running faster with Vue.js. However, Vue.js may not be the best choice for complex applications, as it can become difficult to maintain when the codebase grows larger.
+
+## In support of React
+
+The things I most value about React (and other similar libraries) but seldom see mentioned in many comparisons are:
+
+- Rendered components are a data structure, not a template. As a result, React is renderer-agnostic (enabling libraries like React Native, trivial SSR, even rendering to arbitrary APIs like smart TVs), and it’s simple to manipulate those data structures (allowing a variety of abstractions and optimizations that are substantially more complex and error prone when the rendered product is an HTML string or DOM tree).
+- Quite a lot of common problems can be solved with pure functions (props in, rendered structure out), which are simple to reason about and maintain, and rarely require any advanced knowledge of anything besides HTML/JSX.
+- Static type checking and automated testing of JSX are well supported, and trivial to run without a heavy (eg browser) environment, out of the box.
+- The proximity of data and rendered structure is easy to reason about, navigate, and validate.
+  I’m sure these qualities can be achieved with other UI frameworks whose default rendered product is templates, and perhaps I underestimate the extent to which they’re priorities in Vue (or Svelte, or any other library not defaulting to JSX), but since they so rarely come up in these comparisons or the other libraries’ elevator pitches, I assume they’re just not high on their priority lists.
+
+## In support of Vue
+
+- First reason is some devs hate JSX. It forces you to write loops, conditionals, etc, outside of the markup you are currently writing/reading. It's like writing shitty PHP code without templates. It also forces you to use a lot of boilerplate like bind(), Object.keys(), etc.
+- Another problem with React is that it only really solves one problem. There is no official React router and we hated using the unofficial react-router for a number of reasons. A lot of people end up using MobX too.
+- With Vue there is no need to resort to third parties for your essential blocks. It provides an official router and store called Vuex, which IMO blows Redux out of the water when combined with Vue's reactive data.
+  Vue docs are probably one of the best I've used. They provide technical docs, plus excellent narrative docs (guides) for all their projects (Vue, Router, Vuex, templates, etc).
+
+## Conclusion 🚢
+
+Front-end frameworks like React and Vue.js offer several benefits over building web applications from scratch. They can enhance development efficiency, ensure code consistency, and provide community support. When it comes to choosing a framework for complex engineering applications, React and Vue.js both have their strengths and weaknesses. React is a more flexible and performant choice for complex applications, while Vue.js is an easier-to-use option for smaller applications or when speed of development is a priority. Ultimately, the choice depends on the specific requirements of the project and the expertise of the development team.
+
+Happy reading! Cheers! 🍻
