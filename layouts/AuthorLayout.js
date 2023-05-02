@@ -10,10 +10,15 @@ export default function AuthorLayout({ children, frontMatter }) {
     <>
       <PageSEO title={`About - ${name}`} description={`About me - ${name}`} />
       <div className="divide-y">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+        <div className="space-y-2 pt-6 pb-8 md:space-y-5 flex justify-between">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             About
           </h1>
+          <div>
+          <a href="/resume/resume.pdf" className="bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded" download>
+            Download Resume
+          </a>
+        </div>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
           <div className="flex flex-col items-center space-x-2 pt-8">
