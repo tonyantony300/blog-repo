@@ -3,7 +3,7 @@ const volunteerData = [
     company: 'STEPS',
     title: 'Volunteer Teacher',
     summary:
-      'Advise with the Associate Dean, Instructors and other professionals from the greater Milwaukee Area to vote, discuss and shape the current and future curriculum of the the information technology development department of MATC. Provide the college ideas on what professionally we encounter in the work space as far as new technologies, what would be beneficial for new graduates to know and bettering the development workforce for tomorrow.',
+      'Collaborated with a team of volunteers at STEPS to provide math tutoring to orphaned children in 10th grade, in preparation for their final exams. Developed individualized lesson plans and teaching materials, tailored to meet the diverse needs and learning styles of each student. Implemented various teaching methodologies, including hands-on activities and visual aids, to promote a deeper understanding of the subject matter. Monitored and evaluated each students progress, offering personalized feedback and support to ensure their academic success. Fostered a positive and inclusive learning environment, encouraging active participation and engagement from students. Demonstrated exceptional communication and interpersonal skills, building strong relationships with students, fellow volunteers, and STEPS staff members.',
     yearStart: '2014',
     yearEnd: '2018',
   },
@@ -11,7 +11,7 @@ const volunteerData = [
     company: 'National Service Scheme',
     title: 'Executive Committe member',
     summary:
-      'Lead the lessons for the class while the classroom teacher learns the content alongside the students. Participate in two to three classes per week and meet regularly with their team to track progress and plan upcoming lessons.',
+      'Lead team of volunteers to various activites related to national service scheme, Organized social service camps, outdoor cleaning campaigns.',
     yearStart: '2016',
     yearEnd: '2018',
   },
