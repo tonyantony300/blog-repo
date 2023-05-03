@@ -7,36 +7,45 @@ const workData = [
         monthYearStart: 'Aug 2022',
         monthYearEnd: 'April 2023',
         jobDescription: [
-          'Worked along with product engineering team to make platform a viable solution to the problems faced by accounting customers by automating invoice aggragration procedure.',
-          'Successfully contributed to the overall optimization of the production by conducting thorough research into current developments in the industry(HN).',
-          'Effectively contributed in implementing modulization, scalability, bug-fixes for the existing codebase.',
-          'Adopt and advocate technological advancement amongst teams across organization as the Digital Ambassador',
-          'Implemented event-based microservice on serverless compute - aws lambda',
-          'Helped product to acheive successful migration between AWS accounts by transfering configurations, instances, security groups, Identity and access management while documenting entire procedure. ',
-          'Contributed to all aspects of product development - Development, testing and Documentation.',
-          ' Primary stacks - Vue, aws(lambda), Supabase. Gitlab for Version control and CI/CD.',
-          'Helped organization to build a sustainable browser automation solution using puppeteer/playwright.',
-          'Created postgres functions for database management using chatGpt prompting, ensured reliablity and accuracy, deployed in production which helped organization from creating microservice for the same requirement.'
+          'Collaborated with a 2 person founding engineering team to automate the invoice aggregation procedure, making the platform a viable solution for accounting customers.',
+          'Conducted thorough research into current industry developments (HN) and successfully contributed to the overall optimization of production.',
+          'Effectively contributed to implementing modularity, scalability, and bug fixes for the existing codebase.',
+          'Implemented an event-based microservice on serverless compute, specifically AWS Lambda.',
+          'Facilitated the successful migration of the product between AWS accounts by transferring configurations, instances, security groups, and identity and access management, while documenting the entire procedure.',
+          'Contributed to all aspects of product building, including development, testing, and documentation.',
+          'Primary stacks used include Vue, AWS (Lambda), and Supabase, with Gitlab for version control and CI/CD.',
+          'Helped the organization build a sustainable browser automation solution using Puppeteer/Playwright.',
+          'Created Postgres functions for database management using Chatgpt prompting, ensuring reliability and accuracy, and deployed them in production, eliminating the need to create a microservice for the same requirement.'
         ],
       },
     ],
   },
   {
-    company: 'SIBCA Electronics',
+    company: 'Freelance',
     role: [
       {
-        title: 'Associate Service Engineer',
+        title: 'Web developer',
+        monthYearStart: 'Feb 2022',
+        monthYearEnd: 'Aug 2022',
+        jobDescription: [
+          'Completed Modern React with Redux course from udemy. Learned basics of web development with the help of Youtube and stackoverflow, got myself familiarized with Git and vscode.',
+          'Successfully developed more than eight react projects with real-life applications.',
+        ],
+      },
+    ],
+  },
+  {
+    company: 'SIBCA Electronics Equipment',
+    role: [
+      {
+        title: 'Technichal Service Engineer',
         monthYearStart: 'May 2019',
         monthYearEnd: 'May 2021',
         jobDescription: [
-          'Assessed the testing requirements of each product area and its components, detailed appropriate strategies and tools throughout product development.',
-          'Utilized FitNesse and Selenium to create highly effective automated tests running on Jenkins.',
-          'Collected test metrics, analyzed trends, and suggested appropriate corrective actions.',
-          'Detected the root cause of unstable tests, corrected the underlying issues that resulted in an 80% decrease in unstable tests year over year.',
-          'Evaluated test automation tools, technology, and framework based on product requirements.',
-          'Assisted in developing performance criteria and validated performance metrics were achieved.',
-          'Resolved impediments related to quality by collaborating with cross-functional stakeholders.',
-          'Conducted cross-training and education to test, development and services personnel as required.',
+          ' Programmed, commissioned, and serviced Extra Low Voltage systems and Central Battery systems.',
+          'Communicated with clients, delivered services, and planned resources.',
+          'Delivered technical project documentation.',
+          'Demonstrated hands-on experience in operating and troubleshooting various scalable electronic systems'
         ],
       },
     ],
