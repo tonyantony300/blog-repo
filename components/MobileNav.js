@@ -25,7 +25,7 @@ const MobileNav = () => {
         type="button"
         className="ml-1 mr-1 h-8 w-8 rounded py-1"
         aria-label="Toggle Menu"
-        onClick={onToggleNav}
+        onClick={()=> onToggleNav()}
         data-testid="mobile-nav-button"
       >
         <svg
@@ -58,7 +58,7 @@ const MobileNav = () => {
           type="button"
           aria-label="toggle modal"
           className="fixed h-full w-full cursor-auto focus:outline-none"
-          onClick={onToggleNav}
+          onClick={()=>onToggleNav()}
         ></button>
         <nav className="fixed mt-8 h-full">
           {headerNavLinks.map((link) => (
@@ -66,7 +66,7 @@ const MobileNav = () => {
               <Link
                 href={link.href}
                 className="text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100"
-                onClick={onToggleNav}
+                onClick={()=>onToggleNav()}
               >
                 {link.title}
               </Link>
