@@ -5,7 +5,7 @@ import Link from 'next/link'
 import headerNavLinks from '@/data/headerNavLinks'
 
 const MobileNav = () => {
-  const [navShow, setNavShow] = useState(true)
+  const [navShow, setNavShow] = useState(false)
 
   const onToggleNav = () => {
     setNavShow((status) => {
@@ -15,6 +15,7 @@ const MobileNav = () => {
         // Prevent scrolling
         document.body.style.overflow = 'hidden'
       }
+      console.log('burger clicked')
       return !status
     })
   }
