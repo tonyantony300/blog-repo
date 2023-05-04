@@ -15,7 +15,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             About
           </h1>
           <div>
-          <a href="/resume/resume.pdf" className="bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded" download>
+          <a href="/resume/tonyantony.pdf" className="bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded" download>
             Download Resume
           </a>
         </div>
