@@ -25,14 +25,14 @@
   </url>
 
   <url>
-    <loc>https://www.tonyantony.xyz/tags/react</loc>
-  </url>
-
-  <url>
     <loc>https://www.tonyantony.xyz/tags/frameworks</loc>
   </url>
 
   <url>
     <loc>https://www.tonyantony.xyz/tags/vue</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/tags/react</loc>
   </url>
 </urlset>

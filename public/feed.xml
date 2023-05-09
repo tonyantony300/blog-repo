@@ -7,17 +7,27 @@
       <language>en-us</language>
       <managingEditor>tonyantony300@gmail.com (Tony Antony)</managingEditor>
       <webMaster>tonyantony300@gmail.com (Tony Antony)</webMaster>
-      <lastBuildDate>Wed, 26 Apr 2023 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 08 May 2023 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://www.tonyantony.xyz/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://www.tonyantony.xyz/blog/tech-reads</guid>
+    <title>Compilation of resourses</title>
+    <link>https://www.tonyantony.xyz/blog/tech-reads</link>
+    <description>
+Here I present a collection of notes/snippets/ideas which I think is high quality.
+Original ideas are generated when someone understand something ext...</description>
+    <pubDate>Mon, 08 May 2023 00:00:00 GMT</pubDate>
+    <author>tonyantony300@gmail.com (Tony Antony)</author>
+    <category>startup</category><category>tech</category><category>architecture</category>
+  </item>
+
   <item>
     <guid>https://www.tonyantony.xyz/blog/react-vue-front-framework</guid>
     <title>Comparing React and Vue.js for Complex Engineering Applications</title>
     <link>https://www.tonyantony.xyz/blog/react-vue-front-framework</link>
     <description>
-Image courteous of [Max Duzij at Unsplash](https://unsplash.com/@max_duz).
-
-As web applications have become more complex, so has the need for more so...</description>
+As web applications have become more complex, so has the need for more sophisticated front-end development tools. Front-end frameworks like React and...</description>
     <pubDate>Wed, 26 Apr 2023 00:00:00 GMT</pubDate>
     <author>tonyantony300@gmail.com (Tony Antony)</author>
     <category>Frameworks</category><category>React</category><category>Vue</category>
