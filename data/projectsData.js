@@ -21,7 +21,15 @@ const projectsData = [
     img: '/static/images/projects/workout.png',
     tech: ['Vue', 'supabase', 'tailwind'],
     githuburl: 'https://github.com/tonyantony300/workout',
-    projecturl: 'https://github.com/tonyantony300/workout',
+    projecturl: 'https://bucolic-lokum-8329ac.netlify.app/',
+  },
+  {
+    name: 'Weather widget',
+    description: 'A widget to fetch weather data from AccuweatherApi',
+    img: '/static/images/projects/weather.png',
+    tech: ['ReactJS', 'HTML', 'CSS'],
+    githuburl: 'https://brilliant-taffy-7d9560.netlify.app/',
+    projecturl: 'https://brilliant-taffy-7d9560.netlify.app/',
   },
   {
     name: 'Chat App',
@@ -39,6 +47,15 @@ const projectsData = [
     githuburl: 'https://github.com/tonyantony300/travel',
     projecturl: 'https://mywebsite300.netlify.app',
   },
+  {
+    name: 'Prompt test',
+    description: 'An attempt to generate web app using only AI prompts under 3 hours',
+    img: '/static/images/projects/revo.png',
+    tech: ['ReactJS', 'HTML', 'CSS', 'ChatGpt'],
+    githuburl: 'https://github.com/tonyantony300/friendly-bassoon',
+    projecturl: ' https://friendly-bassoon-zeta.vercel.app',
+  },
+ 
 ]
 
 export default projectsData
