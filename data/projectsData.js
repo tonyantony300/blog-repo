@@ -13,7 +13,7 @@ const projectsData = [
     img: '/static/images/projects/forkify.png',
     tech: ['HTML', 'CSS', 'JS', 'API'],
     githuburl: 'https://github.com/tonyantony300/forkify',
-    projecturl: 'https://github.com/tonyantony300/forkify',
+    projecturl: 'https://marvelous-horse-1a5099.netlify.app',
   },
   {
     name: 'Workout Tracker',
