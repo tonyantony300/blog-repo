@@ -25,14 +25,38 @@
   </url>
 
   <url>
+    <loc>https://www.tonyantony.xyz/tags/engineering</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/tags/architecture</loc>
+  </url>
+
+  <url>
     <loc>https://www.tonyantony.xyz/tags/frameworks</loc>
   </url>
 
   <url>
-    <loc>https://www.tonyantony.xyz/tags/vue</loc>
+    <loc>https://www.tonyantony.xyz/tags/llm</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/tags/prompt</loc>
   </url>
 
   <url>
     <loc>https://www.tonyantony.xyz/tags/react</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/tags/startup</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/tags/tech</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/tags/vue</loc>
   </url>
 </urlset>
