@@ -1,6 +1,6 @@
 ---
 title: Communicating with LLMs - A guide
-tags: ['LLM', 'prompt', 'Engineering']
+tags: ['Engineering', 'prompt', 'LLM']
 date: '2023-05-16'
 images: ['/static/images/posts/intelligence.jpg']
 authors: ['tony']
@@ -18,10 +18,6 @@ canonicalUrl: https://www.google.com
 />
 
 <TOCInline toc={props.toc} asDisclosure toHeading={3} />
-
-Notes to myself
-
-[full credits](https://github.com/brexhq/prompt-engineering)
 
 There’s an old adage that computers will only do what you tell them to do. **Throw that advice out the window. Prompt engineering inverts this wisdom**. It’s like programming in natural language against a non-deterministic computer that will do anything that you haven’t guided it away from doing.
 
@@ -50,8 +46,8 @@ When writing good prompts, you have to account for the idiosyncrasies of the mod
 
 In March of 2023, Princeton and Google released a paper “ReAct: Synergizing Reasoning and Acting in Language Models”, where they introduce a variant of command grammars that allows for fully autonomous interactive execution of actions and retrieval of data.
 
-**The model is instructed to return a thought and an action that it would like to perform. Another agent (e.g. our client) then performs the action and returns it to the model as an observation. The model will then loop to return more thoughts and actions until it returns an answer.
-This is an incredibly powerful technique, effectively allowing the bot to be its own research assistant and possibly take actions on behalf of the user. Combined with a powerful command grammar, the bot should rapidly be able to answer a massive set of user requests.**
+The model is instructed to return a thought and an action that it would like to perform. Another agent (e.g. our client) then performs the action and returns it to the model as an observation. The model will then loop to return more thoughts and actions until it returns an answer.
+This is an incredibly powerful technique, effectively allowing the bot to be its own research assistant and possibly take actions on behalf of the user. Combined with a powerful command grammar, the bot should rapidly be able to answer a massive set of user requests.
 
 We provide this table to the model in Markdown format, which the language model handles **incredibly well** – presumably because OpenAI trains heavily on data from GitHub.There are two broad buckets that prompt engineering approaches fall into.
 
@@ -101,16 +97,18 @@ Large language models are few-shot learners, meaning that they can learn a new t
 
 ## Strategies
 
-1. For one-off objects, enumerating fields + values in a normal bulleted list works pretty well:
+1. **_For one-off objects, enumerating fields + values in a normal bulleted list works pretty well_**
 
-2. Markdown tables are great for scenarios where you have many items of the same type to enumerate.Markdown tables work really well for many use cases and should be preferred due to their density and ability for the model to handle them reliably, but you may run into scenarios where you have many columns and the model struggles with it or every item has some custom attributes and it doesn’t make sense to have dozens of columns of empty data.
+2. **_Markdown tables are great for scenarios where you have many items of the same type to enumerate.Markdown tables work really well for many use cases and should be preferred due to their density and ability for the model to handle them reliably, but you may run into scenarios where you have many columns and the model struggles with it or every item has some custom attributes and it doesn’t make sense to have dozens of columns of empty data._**
 
-3. In these scenarios, JSON is another format that the model handles really well. The close proximity of keys to their values makes it easy for the model to keep the mapping straight.
+3. **_In these scenarios, JSON is another format that the model handles really well. The close proximity of keys to their values makes it easy for the model to keep the mapping straight._**
 
-4. Occasionally you’ll want to include freeform text in a prompt that you would like to delineate from the rest of the prompt – such as embedding a document for the bot to reference. In these scenarios, surrounding the document with triple backticks, ```, works well.
+4. **_Occasionally you’ll want to include freeform text in a prompt that you would like to delineate from the rest of the prompt – such as embedding a document for the bot to reference. In these scenarios, surrounding the document with triple backticks, ```, works well._**
 
-5. Not all data is flat and linear. Sometimes you’ll need to embed data that is nested or has relations to other data. In these scenarios, lean on JSON:
+5. **_Not all data is flat and linear. Sometimes you’ll need to embed data that is nested or has relations to other data. In these scenarios, lean on JSON_**
 
 Sometimes you will bang your head on a prompt trying to get the model to output reliable results, but, no matter what you do, it just won’t work. This will frequently happen when the bot’s final output requires intermediate thinking, but you ask the bot only for the output and nothing else.you simply have to ask the bot to think step-by-step.
 
-If we simply add “Let’s think step-by-step” before, the model gets the correct answer. Using Chain-of-Thought prompting will consume more tokens, resulting in increased price and latency, but the results are noticeably more reliable for many scenarios. It’s a valuable tool to use when you need the bot to do something complex and as reliably as possible.
+If we simply add **“Let’s think step-by-step” before**, the model gets the correct answer. Using Chain-of-Thought prompting will consume more tokens, resulting in increased price and latency, but the results are noticeably more reliable for many scenarios. It’s a valuable tool to use when you need the bot to do something complex and as reliably as possible.
+
+[full credits](https://github.com/brexhq/prompt-engineering)
