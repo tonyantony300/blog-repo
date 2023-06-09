@@ -17,6 +17,8 @@ canonicalUrl: https://www.google.com
   height={250}
 />
 
+<TOCInline toc={props.toc} asDisclosure toHeading={3} />
+
 Typical adult English speakers have some 20,000 words in their vocabulary. Few programming languages come with 20,000 commands built in. And the vocabulary that is available tends to be more precisely defined, and thus less flexible, than in human language. Therefore, we usually have to introduce new concepts to avoid repeating ourselves too much.
 
 Because a function has to jump back to the place that called it when it returns, the computer must remember the context from which the call happened. In one case, console.log has to return to the greet function when it is done. In the other case, it returns to the end of the program.The place where the computer stores this context is the call stack. Every time a function is called, the current context is stored on top of this stack. When a function returns, it removes the top context from the stack and uses that context to continue execution.
