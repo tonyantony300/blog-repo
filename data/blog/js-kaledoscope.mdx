@@ -25,7 +25,7 @@ Because a function has to jump back to the place that called it when it returns,
 
 The ability to treat functions as values, combined with the fact that local bindings are re-created every time a function is called, brings up an interesting question. What happens to local bindings when the function call that created them is no longer active? This feature—being able to reference a specific instance of a local binding in an enclosing scope—is called closure. A function that references bindings from local scopes around it is called a closure. This behavior not only frees you from having to worry about lifetimes of bindings but also makes it possible to use function values in some creative ways.
 
-Functions and side effects
+### Functions and side effects
 
 Functions can be roughly divided into those that are called for their side effects and those that are called for their return value. (Though it is definitely also possible to both have side effects and return a value.)
 
@@ -53,8 +53,10 @@ work: "Went to work",
 
 To find out what properties an object has, you can use the Object.keys function. You give it an object, and it returns an array of strings—the object’s property names.
 
+```
 console.log(Object.keys({x: 0, y: 0, z: 2}));
 // → ["x", "y", "z"]
+```
 
 ### Array loops
 
@@ -64,9 +66,11 @@ console.log("Hello World!");
 
 There is a simpler way to write such loops in modern JavaScript.
 
+```
 for (let entry of JOURNAL) {
 console.log(`${entry.events.length} events.`);
 }
+```
 
 When a for loop looks like this, with the word of after a variable definition, it will loop over the elements of the value given after of. This works not only for arrays but also for strings and some other data structures.
 
@@ -82,13 +86,13 @@ Methods are functions that live in properties and (usually) act on the value the
 
 But these types do have built-in properties. Every string value has a number of methods. Some very useful ones are slice and indexOf, which resemble the array methods of the same name.
 
-The Math Object
+###The Math Object
 
 The Math object is used as a container to group a bunch of related functionality. There is only one Math object, and it is almost never useful as a value. Rather, it provides a namespace so that all these functions and values do not have to be global bindings.
 
 Math.floor (which rounds down to the nearest whole number) on the result of Math.random.There are also the functions Math.ceil (for “ceiling”, which rounds up to a whole number), Math.round (to the nearest whole number), and Math.abs, which takes the absolute value of a number, meaning it negates negative values but leaves positive ones as they are.
 
-Destructuring
+###Destructuring
 
 If you know the value you are binding is an array, you can use square brackets to “look inside” of the value, binding its contents.
 
@@ -121,7 +125,9 @@ In the context of programming, these kinds of vocabularies are usually called ab
 
 There is a built-in array method, forEach, that provides something like a for/of loop as a higher-order function.
 
+```
 ["A", "B"].forEach(l => console.log(l))
+```
 
 Summarizing with reduce - Another common thing to do with arrays is to compute a single value from them. It builds a value by repeatedly taking a single element from the array and combining it with the current value.
 
