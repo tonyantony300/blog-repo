@@ -12,17 +12,13 @@
       
   <item>
     <guid>https://www.tonyantony.xyz/blog/prompt-engineering-starter</guid>
-    <title>Communicating with LLMs - An Engineering guide</title>
+    <title>A guide on LLMs</title>
     <link>https://www.tonyantony.xyz/blog/prompt-engineering-starter</link>
     <description>
-Notes to myself
-
-[full credits](https://github.com/brexhq/prompt-engineering)
-
-There’s an old adage that computers will only do what you tell them to...</description>
+There’s an old adage that computers will only do what you tell them to do. **Throw that advice out the window. Prompt engineering inverts this wisdom...</description>
     <pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
     <author>tonyantony300@gmail.com (Tony Antony)</author>
-    <category>LLM</category><category>prompt</category><category>Engineering</category>
+    <category>Engineering</category><category>prompt</category><category>LLM</category>
   </item>
 
     </channel>

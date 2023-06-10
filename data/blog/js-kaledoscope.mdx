@@ -1,7 +1,7 @@
 ---
 title: Javascript - looking into the kaledoscope
 tags: ['Javascript']
-date: '2023-04-26'
+date: '2023-06-06'
 images: ['/static/images/posts/js.jpg']
 authors: ['tony']
 draft: false
@@ -33,7 +33,7 @@ Importance of Naming function properly
 
 How difficult it is to find a good name for a function is a good indication of how clear a concept it is that you’re trying to wrap.
 
-Data Structures: Objects and Arrays
+### Data Structures: Objects and Arrays
 
 Zero-based counting has a long tradition in technology and in certain ways makes a lot of sense, but it takes some getting used to. Think of the index as the amount of items to skip, counting from the start of the array.
 
@@ -60,9 +60,13 @@ console.log(Object.keys({x: 0, y: 0, z: 2}));
 
 ### Array loops
 
+```
 for (let i = 0; i < 10; i++) {
 console.log("Hello World!");
-} - when it comes to iterating over items for algorithm scripting, ordinary, basic syntax provides more granual control over the process than lets say, map or forEach.
+}
+```
+
+- when it comes to iterating over items for algorithm scripting, ordinary, basic syntax provides more granual control over the process than lets say, map or forEach.
 
 There is a simpler way to write such loops in modern JavaScript.
 
@@ -86,17 +90,17 @@ Methods are functions that live in properties and (usually) act on the value the
 
 But these types do have built-in properties. Every string value has a number of methods. Some very useful ones are slice and indexOf, which resemble the array methods of the same name.
 
-###The Math Object
+### The Math Object
 
 The Math object is used as a container to group a bunch of related functionality. There is only one Math object, and it is almost never useful as a value. Rather, it provides a namespace so that all these functions and values do not have to be global bindings.
 
 Math.floor (which rounds down to the nearest whole number) on the result of Math.random.There are also the functions Math.ceil (for “ceiling”, which rounds up to a whole number), Math.round (to the nearest whole number), and Math.abs, which takes the absolute value of a number, meaning it negates negative values but leaves positive ones as they are.
 
-###Destructuring
+### Destructuring
 
 If you know the value you are binding is an array, you can use square brackets to “look inside” of the value, binding its contents.
 
-###JSON
+### JSON
 
 JavaScript gives us the functions JSON.stringify and JSON.parse to convert data to and from this format. The first takes a JavaScript value and returns a JSON-encoded string. The second takes such a string and converts it to the value it encodes.
 
@@ -115,6 +119,7 @@ Objects, as generic blobs of values, can be used to build all sorts of data stru
       }
     }
   };
+
 ```
 
 ### Higher-Order Functions
@@ -127,9 +132,10 @@ There is a built-in array method, forEach, that provides something like a for/of
 
 ```
 ["A", "B"].forEach(l => console.log(l))
+
 ```
 
-Summarizing with reduce - Another common thing to do with arrays is to compute a single value from them. It builds a value by repeatedly taking a single element from the array and combining it with the current value.
+- Summarizing with reduce - Another common thing to do with arrays is to compute a single value from them. It builds a value by repeatedly taking a single element from the array and combining it with the current value.
 
 ```
 function reduce(array, combine, start) {
@@ -139,6 +145,7 @@ current = combine(current, element);
 }
 return current;
 }
+
 ```
 
 Higher-order functions start to shine when you need to compose operations.
