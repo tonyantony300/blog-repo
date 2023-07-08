@@ -53,7 +53,7 @@ const projectsData = [
     img: '/static/images/projects/revo.png',
     tech: ['ReactJS', 'HTML', 'CSS', 'ChatGpt'],
     githuburl: 'https://github.com/tonyantony300/friendly-bassoon',
-    projecturl: ' https://friendly-bassoon-zeta.vercel.app',
+    projecturl: 'https://friendly-bassoon-zeta.vercel.app',
   },
  
 ]
