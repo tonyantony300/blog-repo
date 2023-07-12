@@ -7,9 +7,22 @@
       <language>en-us</language>
       <managingEditor>tonyantony300@gmail.com (Tony Antony)</managingEditor>
       <webMaster>tonyantony300@gmail.com (Tony Antony)</webMaster>
-      <lastBuildDate>Tue, 06 Jun 2023 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 12 Jul 2023 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://www.tonyantony.xyz/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://www.tonyantony.xyz/blog/dsa</guid>
+    <title>Data Structures and Algorithms</title>
+    <link>https://www.tonyantony.xyz/blog/dsa</link>
+    <description>
+## Introduction
+
+When you think about code, what first comes to your mind is the ability of it copy itself run the same time at multiple places. Once...</description>
+    <pubDate>Wed, 12 Jul 2023 00:00:00 GMT</pubDate>
+    <author>tonyantony300@gmail.com (Tony Antony)</author>
+    <category>Data structure</category><category>algorithm</category><category>computer science</category><category>software Engineering</category>
+  </item>
+
   <item>
     <guid>https://www.tonyantony.xyz/blog/js-kaledoscope</guid>
     <title>Javascript - looking into the kaledoscope</title>
@@ -30,18 +43,6 @@ There’s an old adage that computers will only do what you tell them to do. **T
     <pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
     <author>tonyantony300@gmail.com (Tony Antony)</author>
     <category>Engineering</category><category>prompt</category><category>LLM</category>
-  </item>
-
-  <item>
-    <guid>https://www.tonyantony.xyz/blog/tech-reads</guid>
-    <title>Compilation of resourses</title>
-    <link>https://www.tonyantony.xyz/blog/tech-reads</link>
-    <description>
-Here I present a collection of notes/snippets/ideas which I think is high quality.
-Original ideas are generated when someone understand something ext...</description>
-    <pubDate>Mon, 08 May 2023 00:00:00 GMT</pubDate>
-    <author>tonyantony300@gmail.com (Tony Antony)</author>
-    <category>startup</category><category>tech</category><category>architecture</category>
   </item>
 
   <item>

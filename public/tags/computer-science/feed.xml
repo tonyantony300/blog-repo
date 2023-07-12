@@ -1,0 +1,27 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Tony Antony | Engineer, Full-stack developer</title>
+      <link>https://www.tonyantony.xyz/blog</link>
+      <description>Tony Antony&#39;s Digital Garden.</description>
+      <language>en-us</language>
+      <managingEditor>tonyantony300@gmail.com (Tony Antony)</managingEditor>
+      <webMaster>tonyantony300@gmail.com (Tony Antony)</webMaster>
+      <lastBuildDate>Wed, 12 Jul 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.tonyantony.xyz/tags/computer-science/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.tonyantony.xyz/blog/dsa</guid>
+    <title>Data Structures and Algorithms</title>
+    <link>https://www.tonyantony.xyz/blog/dsa</link>
+    <description>
+## Introduction
+
+When you think about code, what first comes to your mind is the ability of it copy itself run the same time at multiple places. Once...</description>
+    <pubDate>Wed, 12 Jul 2023 00:00:00 GMT</pubDate>
+    <author>tonyantony300@gmail.com (Tony Antony)</author>
+    <category>Data structure</category><category>algorithm</category><category>computer science</category><category>software Engineering</category>
+  </item>
+
+    </channel>
+  </rss>
