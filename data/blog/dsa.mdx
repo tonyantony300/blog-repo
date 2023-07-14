@@ -39,7 +39,7 @@ When you think about code, what first comes to your mind is the ability of it co
 - As the name suggests, input is logically divided into two parts and value is compared to find which half it belongs.
 - This process is repeated until value is found. Complexity O(log n)
 
-```
+```JavaScript
 function binarySearch(array, target) {
   let path = [];
   let left = 0;
@@ -73,7 +73,7 @@ function palindrome(str) {
 
 ### Roman numerals converter
 
-````JavaScript
+`````JavaScript
 function convertToRoman(num) {
  let romanArray = [['M',1000],['CM',900],['D',500],['CD',400],['C',100],['XC',90],['L',50],['XL',40],['X',10],['IX',9],['V',5],['IV',4],['I',1]]
  let string = ""
@@ -88,8 +88,7 @@ function convertToRoman(num) {
 
 ### Ceasers cipher decoder
 
-````
-
+````JavaScript
 function rot13(str) {
 let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 let alphaArray = alphabet.split("")
@@ -110,8 +109,7 @@ return decodedArray.join("");
 
 ### Phone number checker
 
-```
-
+```JavaScript
 function telephoneCheck(str) {
 let pattern = /^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/;
 let match = pattern.test(str);
@@ -120,4 +118,4 @@ return match;
 
 ```
 
-```
+`````
