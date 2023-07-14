@@ -39,7 +39,8 @@ When you think about code, what first comes to your mind is the ability of it co
 - As the name suggests, input is logically divided into two parts and value is compared to find which half it belongs.
 - This process is repeated until value is found. Complexity O(log n)
 
-````function binarySearch(array, target) {
+```
+function binarySearch(array, target) {
   let path = [];
   let left = 0;
   let right = array.length - 1;
@@ -57,19 +58,23 @@ When you think about code, what first comes to your mind is the ability of it co
     }
   }
   return "Value Not Found";
-}```
+}
+```
 
 ### Palindrome Checker
 
-```function palindrome(str) {
+```JavaScript
+function palindrome(str) {
   let newString = str.replace(/[^a-z0-9]/gi,"").toLowerCase()
   let reversed = newString.split("").reverse().join("")
   return reversed === newString
-}```
+}
+```
 
 ### Roman numerals converter
 
-```function convertToRoman(num) {
+````JavaScript
+function convertToRoman(num) {
  let romanArray = [['M',1000],['CM',900],['D',500],['CD',400],['C',100],['XC',90],['L',50],['XL',40],['X',10],['IX',9],['V',5],['IV',4],['I',1]]
  let string = ""
  for(let i = 0; i < romanArray.length; i++){
@@ -83,27 +88,36 @@ When you think about code, what first comes to your mind is the ability of it co
 
 ### Ceasers cipher decoder
 
-``` function rot13(str) {
-  let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-  let alphaArray = alphabet.split("")
-  let alphabetCeaser = "NOPQRSTUVWXYZABCDEFGHIJKLM"
-  let stringArray = str.split("")
-  let decodedArray= []
-  for(let i=0; i <= str.length; i++){
-    if(alphaArray.indexOf(stringArray[i]) > -1){
-    decodedArray.push(alphabetCeaser[alphaArray.indexOf(stringArray[i])])
-    }else {
-      decodedArray.push(stringArray[i])
-    }
-  }
-  return decodedArray.join("");
-}```
+````
+
+function rot13(str) {
+let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+let alphaArray = alphabet.split("")
+let alphabetCeaser = "NOPQRSTUVWXYZABCDEFGHIJKLM"
+let stringArray = str.split("")
+let decodedArray= []
+for(let i=0; i <= str.length; i++){
+if(alphaArray.indexOf(stringArray[i]) > -1){
+decodedArray.push(alphabetCeaser[alphaArray.indexOf(stringArray[i])])
+}else {
+decodedArray.push(stringArray[i])
+}
+}
+return decodedArray.join("");
+}
+
+```
 
 ### Phone number checker
 
-```function telephoneCheck(str) {
-  let pattern = /^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/;
-  let match = pattern.test(str);
-  return match;
+```
+
+function telephoneCheck(str) {
+let pattern = /^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/;
+let match = pattern.test(str);
+return match;
 }
-````
+
+```
+
+```
