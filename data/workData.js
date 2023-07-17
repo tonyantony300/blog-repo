@@ -5,7 +5,7 @@ const workData = [
       {
         title: 'Full-stack developer',
         monthYearStart: 'Aug 2022',
-        monthYearEnd: 'April 2023',
+        monthYearEnd: 'Currently',
         jobDescription: [
           'Collaborated with a 2 person founding engineering team to automate the invoice aggregation procedure, making the platform a viable solution for accounting customers.',
           'Conducted thorough research into current industry developments (HN) and successfully contributed to the overall optimization of production.',
@@ -24,7 +24,7 @@ const workData = [
     company: 'Freelance',
     role: [
       {
-        title: 'Web developer',
+        title: 'React Web developer',
         monthYearStart: 'Feb 2022',
         monthYearEnd: 'Aug 2022',
         jobDescription: [
