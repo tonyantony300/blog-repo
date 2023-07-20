@@ -1,5 +1,5 @@
 ---
-title: What I came across while preparing for React developer interview
+title: delving into the world of React
 tags: ['react', 'virtual-dom', 'change detection', 'component based UI']
 date: '2023-07-20'
 images: ['/static/images/posts/react-why.jpg']
@@ -19,13 +19,17 @@ canonicalUrl: https://www.google.com
 
 <TOCInline toc={props.toc} asDisclosure toHeading={3} />
 
-- the crux of the main problem front-end frameworks set out to solve: change detection, meaning detecting changes to application state so that the UI can be updated accordingly. Change detection is the fundamental feature of front-end frameworks, and the framework authors’ solution to this one problem determines everything else about it: developer experience, user experience, API surface area, community satisfaction and involvement, etc., etc.
+- The crux of the main problem front-end frameworks set out to solve: change detection, meaning detecting changes to application state so that the UI can be updated accordingly. Change detection is the fundamental feature of front-end frameworks, and the framework authors’ solution to this one problem determines everything else about it: developer experience, user experience, API surface area, community satisfaction and involvement, etc., etc.
 
-- “I’ll manage state so that I know when it changes.” —React
-- True to its de-facto tagline, change detection in React is “just JavaScript.” Developers simply update state by calling directly into the React runtime through its API; since React is notified to make the state change, it also knows that it needs to re-render the component.- The key piece here is the setCount function returned to us by React’s useState hook. When this function is called, React can use its internal virtual DOM diffing algorithm to determine which pieces of the page to re-render. Note that this means the React runtime has to be included in the application bundle downloaded by the user.
+- “I’ll manage state so that I know when it changes.” — React
+- True to its de-facto tagline, change detection in React is “just JavaScript.” Developers simply update state by calling directly into the React runtime through its API; since React is notified to make the state change, it also knows that it needs to re-render the component.
+
+- The key piece here is the setCount function returned to us by React’s useState hook. When this function is called, React can use its internal virtual DOM diffing algorithm to determine which pieces of the page to re-render. Note that this means the React runtime has to be included in the application bundle downloaded by the user.
 
   ```
-  React’s change detection paradigm is straightforward: the application state is maintained inside the framework (with APIs exposed to the developer for updating it) so that React knows when to re-render.
+  React’s change detection paradigm is straightforward: the application state is maintained
+  inside the framework (with APIs exposed to the developer for updating it) so that React
+  knows when to re-render.
   ```
 
 ### They got great documentation
@@ -36,22 +40,22 @@ canonicalUrl: https://www.google.com
 
 - Great way to build component based UIs
 
-- 1. The virtual DOM. When I'm writing jQuery-based code, I have to write both a component template and code that updates the DOM in response to input; when I'm writing code for a virtual DOM, the component template is sufficient to update the DOM and I don't have to write that extra code, so there are fewer chances for bugs to creep in.
+1. The virtual DOM. When I'm writing jQuery-based code, I have to write both a component template and code that updates the DOM in response to input; when I'm writing code for a virtual DOM, the component template is sufficient to update the DOM and I don't have to write that extra code, so there are fewer chances for bugs to creep in.
 
-- 1. Virtual DOM -- but this also includes DOM diffing, which makes it extremely efficient to re-render "the entire app" whenever a change happens (because you're not actually rendering it all but you largely don't have to know that).
+1.1. Virtual DOM -- but this also includes DOM diffing, which makes it extremely efficient to re-render "the entire app" whenever a change happens (because you're not actually rendering it all but you largely don't have to know that).
 
-- 2. HTML-like syntax embedded in Javascript (JSX). I didn't like this at first until I configured Sublime Text to highlight embedded HTML correctly. Embedded HTML has pros and cons, but I think it's a net positive.
+2. HTML-like syntax embedded in Javascript (JSX). I didn't like this at first until I configured Sublime Text to highlight embedded HTML correctly. Embedded HTML has pros and cons, but I think it's a net positive.
 
-- 2. JSX -- but unlike HTML this is just syntactic sugar for the underlying API. It may look like someone got HTML in your JS but it's really just syntax for nesting components and the rest is plain old JavaScript (compared to HTML templates where you have to learn a proprietary template language to do the same things you can already do in JS).
+2.1. JSX -- but unlike HTML this is just syntactic sugar for the underlying API. It may look like someone got HTML in your JS but it's really just syntax for nesting components and the rest is plain old JavaScript (compared to HTML templates where you have to learn a proprietary template language to do the same things you can already do in JS).
+
+3. Unidirectional (one-way) data flow with pure components. This isn't enforced by React itself but if you stick to constructing your components this way (which companion libraries like Redux encourage you to do), your entire application becomes easier to reason about because you can think of your React code as one giant render function.
 
 - React projects also typically include new tech like ES2015, webpack, hot code reloading, and Redux with its time-traveling debugger. You can build your own stack that uses a virtual DOM library, embedded HTML, ES2015, and so on, but it's helpful to start with a common stack that many people understand. That's why React is interesting.
 
 - Combined with immutable state manager like Redux, it can dramatically simplify front end development.
 
-3. Unidirectional (one-way) data flow with pure components. This isn't enforced by React itself but if you stick to constructing your components this way (which companion libraries like Redux encourage you to do), your entire application becomes easier to reason about because you can think of your React code as one giant render function.
-
 ## more resources
 
-- (free code camp)[https://www.freecodecamp.org/learn/front-end-development-libraries/]
-- (react patterns)[http://lucasmreis.github.io/blog/simple-react-patterns/]
-- (common mistakes)[https://www.joshwcomeau.com/react/common-beginner-mistakes/]
+- [free code camp](https://www.freecodecamp.org/learn/front-end-development-libraries/)
+- [react patterns](http://lucasmreis.github.io/blog/simple-react-patterns/)
+- [common mistakes](https://www.joshwcomeau.com/react/common-beginner-mistakes/)
