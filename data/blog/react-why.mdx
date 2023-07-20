@@ -1,5 +1,5 @@
 ---
-title: delving into the world of React
+title: Delving into the world of React
 tags: ['react', 'virtual-dom', 'change detection', 'component based UI']
 date: '2023-07-20'
 images: ['/static/images/posts/react-why.jpg']
@@ -19,22 +19,23 @@ canonicalUrl: https://www.google.com
 
 <TOCInline toc={props.toc} asDisclosure toHeading={3} />
 
-- The crux of the main problem front-end frameworks set out to solve: change detection, meaning detecting changes to application state so that the UI can be updated accordingly. Change detection is the fundamental feature of front-end frameworks, and the framework authors’ solution to this one problem determines everything else about it: developer experience, user experience, API surface area, community satisfaction and involvement, etc., etc.
+The crux of the main problem front-end frameworks set out to solve: change detection, meaning detecting changes to application state so that the UI can be updated accordingly. Change detection is the fundamental feature of front-end frameworks, and the framework authors’ solution to this one problem determines everything else about it: developer experience, user experience, API surface area, community satisfaction and involvement, etc., etc.
 
-- “I’ll manage state so that I know when it changes.” — React
-- True to its de-facto tagline, change detection in React is “just JavaScript.” Developers simply update state by calling directly into the React runtime through its API; since React is notified to make the state change, it also knows that it needs to re-render the component.
+### “I’ll manage state so that I know when it changes.” — React
 
-- The key piece here is the setCount function returned to us by React’s useState hook. When this function is called, React can use its internal virtual DOM diffing algorithm to determine which pieces of the page to re-render. Note that this means the React runtime has to be included in the application bundle downloaded by the user.
+True to its de-facto tagline, change detection in React is “just JavaScript.” Developers simply update state by calling directly into the React runtime through its API; since React is notified to make the state change, it also knows that it needs to re-render the component.
 
-  ```
-  React’s change detection paradigm is straightforward: the application state is maintained
-  inside the framework (with APIs exposed to the developer for updating it) so that React
-  knows when to re-render.
-  ```
+The key piece here is the setCount function returned to us by React’s useState hook. When this function is called, React can use its internal virtual DOM diffing algorithm to determine which pieces of the page to re-render. Note that this means the React runtime has to be included in the application bundle downloaded by the user.
+
+```
+React’s change detection paradigm is straightforward: the application state
+is maintained inside the framework (with APIs exposed to the developer for
+updating it) so that React knows when to re-render.
+```
 
 ### They got great documentation
 
-- I recently went through the entire beta React docs (took me about 3 weeks) and was blown away by the quality of the tutorials. The live code playgrounds and challenges are amazing. With the recent debate about reactivity and which framework implements it best (solid vs. react vs. vue vs. svelte), I felt that what mattered most to me as a junior dev is the quality of the documentation. I gained a strong enough understanding of the complicated concepts (dependency arrays and the useEffect hook) because the docs were so good. There is always room for improvement in JS land and other frameworks are constantly innovating, but the thing I always fallback to is: how good is the documentation?
+I recently went through the entire beta React docs (took me about 3 weeks) and was blown away by the quality of the tutorials. The live code playgrounds and challenges are amazing. With the recent debate about reactivity and which framework implements it best (solid vs. react vs. vue vs. svelte), I felt that what mattered most to me as a junior dev is the quality of the documentation. I gained a strong enough understanding of the complicated concepts (dependency arrays and the useEffect hook) because the docs were so good. There is always room for improvement in JS land and other frameworks are constantly innovating, but the thing I always fallback to is: how good is the documentation?
 
 ## why react?
 
