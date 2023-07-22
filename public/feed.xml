@@ -7,17 +7,52 @@
       <language>en-us</language>
       <managingEditor>tonyantony300@gmail.com (Tony Antony)</managingEditor>
       <webMaster>tonyantony300@gmail.com (Tony Antony)</webMaster>
-      <lastBuildDate>Wed, 12 Jul 2023 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 23 Jul 2023 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://www.tonyantony.xyz/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://www.tonyantony.xyz/blog/aws-how</guid>
+    <title>AWS how?</title>
+    <link>https://www.tonyantony.xyz/blog/aws-how</link>
+    <description>
+[AWS](https://miparnisariblog.files.wordpress.com/2023/03/aws-networking-1.png)
+
+![](`https://miparnisariblog.files.wordpress.com/2023/03/aws-network...</description>
+    <pubDate>Sun, 23 Jul 2023 00:00:00 GMT</pubDate>
+    <author>tonyantony300@gmail.com (Tony Antony)</author>
+    <category>cloud computing</category><category>AWS</category>
+  </item>
+
+  <item>
+    <guid>https://www.tonyantony.xyz/blog/writing-git</guid>
+    <title>The code vault</title>
+    <link>https://www.tonyantony.xyz/blog/writing-git</link>
+    <description>
+I wanna write about git.
+
+Version control software created by the Linux creator, the open source legend Linux Torvalds. It is made keeping in mind of...</description>
+    <pubDate>Fri, 21 Jul 2023 00:00:00 GMT</pubDate>
+    <author>tonyantony300@gmail.com (Tony Antony)</author>
+    <category>Version-control</category><category>git</category>
+  </item>
+
+  <item>
+    <guid>https://www.tonyantony.xyz/blog/react-why</guid>
+    <title>Delving into the world of React</title>
+    <link>https://www.tonyantony.xyz/blog/react-why</link>
+    <description>
+The crux of the main problem front-end frameworks set out to solve: change detection, meaning detecting changes to application state so that the UI c...</description>
+    <pubDate>Thu, 20 Jul 2023 00:00:00 GMT</pubDate>
+    <author>tonyantony300@gmail.com (Tony Antony)</author>
+    <category>react</category><category>virtual-dom</category><category>change detection</category><category>component based UI</category>
+  </item>
+
   <item>
     <guid>https://www.tonyantony.xyz/blog/dsa</guid>
     <title>Data Structures and Algorithms</title>
     <link>https://www.tonyantony.xyz/blog/dsa</link>
     <description>
-## Introduction
-
-When you think about code, what first comes to your mind is the ability of it copy itself run the same time at multiple places. Once...</description>
+Do not get intimidated by the Image and name on this article. Algorithm is just a procedure written in text that could be understood by machine and D...</description>
     <pubDate>Wed, 12 Jul 2023 00:00:00 GMT</pubDate>
     <author>tonyantony300@gmail.com (Tony Antony)</author>
     <category>Data structure</category><category>algorithm</category><category>computer science</category><category>software Engineering</category>
@@ -25,7 +60,7 @@ When you think about code, what first comes to your mind is the ability of it co
 
   <item>
     <guid>https://www.tonyantony.xyz/blog/js-kaledoscope</guid>
-    <title>Javascript - looking into the kaledoscope</title>
+    <title>Javascript - looking closer</title>
     <link>https://www.tonyantony.xyz/blog/js-kaledoscope</link>
     <description>
 Typical adult English speakers have some 20,000 words in their vocabulary. Few programming languages come with 20,000 commands built in. And the voca...</description>
@@ -36,24 +71,13 @@ Typical adult English speakers have some 20,000 words in their vocabulary. Few p
 
   <item>
     <guid>https://www.tonyantony.xyz/blog/prompt-engineering-starter</guid>
-    <title>A guide on LLMs</title>
+    <title>A guide on the LLMs</title>
     <link>https://www.tonyantony.xyz/blog/prompt-engineering-starter</link>
     <description>
 There’s an old adage that computers will only do what you tell them to do. **Throw that advice out the window. Prompt engineering inverts this wisdom...</description>
     <pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
     <author>tonyantony300@gmail.com (Tony Antony)</author>
     <category>Engineering</category><category>prompt</category><category>LLM</category>
-  </item>
-
-  <item>
-    <guid>https://www.tonyantony.xyz/blog/react-vue-front-framework</guid>
-    <title>Comparing React and Vue.js for Complex Engineering Applications</title>
-    <link>https://www.tonyantony.xyz/blog/react-vue-front-framework</link>
-    <description>
-As web applications have become more complex, so has the need for more sophisticated front-end development tools. Front-end frameworks like React and...</description>
-    <pubDate>Wed, 26 Apr 2023 00:00:00 GMT</pubDate>
-    <author>tonyantony300@gmail.com (Tony Antony)</author>
-    <category>Frameworks</category><category>React</category><category>Vue</category>
   </item>
 
     </channel>
