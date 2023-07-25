@@ -7,33 +7,33 @@
       <language>en-us</language>
       <managingEditor>tonyantony300@gmail.com (Tony Antony)</managingEditor>
       <webMaster>tonyantony300@gmail.com (Tony Antony)</webMaster>
-      <lastBuildDate>Sun, 23 Jul 2023 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 25 Jul 2023 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://www.tonyantony.xyz/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
     <guid>https://www.tonyantony.xyz/blog/aws-how</guid>
-    <title>AWS how?</title>
+    <title>AWS How?</title>
     <link>https://www.tonyantony.xyz/blog/aws-how</link>
     <description>
-[AWS](https://miparnisariblog.files.wordpress.com/2023/03/aws-networking-1.png)
+AWS networking diagram - how all of it fit together.
 
-![](`https://miparnisariblog.files.wordpress.com/2023/03/aws-network...</description>
-    <pubDate>Sun, 23 Jul 2023 00:00:00 GMT</pubDate>
+Using AWS tools, Auto Scaling, and Elastic Load Balancing, your application can scale up or dow...</description>
+    <pubDate>Tue, 25 Jul 2023 00:00:00 GMT</pubDate>
     <author>tonyantony300@gmail.com (Tony Antony)</author>
-    <category>cloud computing</category><category>AWS</category>
+    <category>AWS</category><category>cloud-computing</category>
   </item>
 
   <item>
-    <guid>https://www.tonyantony.xyz/blog/writing-git</guid>
-    <title>The code vault</title>
-    <link>https://www.tonyantony.xyz/blog/writing-git</link>
+    <guid>https://www.tonyantony.xyz/blog/bing-prompt</guid>
+    <title>When Bing chat spilled its beans.</title>
+    <link>https://www.tonyantony.xyz/blog/bing-prompt</link>
     <description>
-I wanna write about git.
+I was casually prompting my way through Bing chat when It went broke down and I have no Idea why it decided to show the whole prompt to me.
 
-Version control software created by the Linux creator, the open source legend Linux Torvalds. It is made keeping in mind of...</description>
-    <pubDate>Fri, 21 Jul 2023 00:00:00 GMT</pubDate>
+I wanna ...</description>
+    <pubDate>Tue, 25 Jul 2023 00:00:00 GMT</pubDate>
     <author>tonyantony300@gmail.com (Tony Antony)</author>
-    <category>Version-control</category><category>git</category>
+    <category>Bing</category><category>LLM</category><category>GPT-4</category>
   </item>
 
   <item>
@@ -67,6 +67,19 @@ Typical adult English speakers have some 20,000 words in their vocabulary. Few p
     <pubDate>Tue, 06 Jun 2023 00:00:00 GMT</pubDate>
     <author>tonyantony300@gmail.com (Tony Antony)</author>
     <category>Javascript</category>
+  </item>
+
+  <item>
+    <guid>https://www.tonyantony.xyz/blog/writing-git</guid>
+    <title>The code vault</title>
+    <link>https://www.tonyantony.xyz/blog/writing-git</link>
+    <description>
+I wanna write about git.
+
+Version control software created by the Linux creator, the open source legend Linux Torvalds. It is made keeping in mind of...</description>
+    <pubDate>Mon, 29 May 2023 00:00:00 GMT</pubDate>
+    <author>tonyantony300@gmail.com (Tony Antony)</author>
+    <category>Version-control</category><category>git</category>
   </item>
 
   <item>
