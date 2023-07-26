@@ -1,5 +1,5 @@
 ---
-title: AWS How?
+title: AWS What?
 tags: [AWS, cloud-computing]
 date: '2023-07-25'
 images: ['/static/images/posts/rack.jpg']
@@ -19,7 +19,40 @@ canonicalUrl: https://www.google.com
 
 <TOCInline toc={props.toc} asDisclosure toHeading={3} />
 
-AWS networking diagram - how all of it fit together.
+AWS is designed to allow application providers, ISVs, and vendors to quickly and securely host your applications – whether an existing application or a new SaaS-based application. You can use the AWS Management Console or well-documented web services APIs to access AWS’s application hosting platform.
+
+AWS enables you to select the operating system, programming language, web application platform, database, and other services you need. With AWS, you receive a virtual environment that lets you load the software and services your application requires. This eases the migration process for existing applications while preserving options for building new solutions.
+
+You pay only for the compute power, storage, and other resources you use, with no long-term contracts or up-front commitments.
+
+<Image
+  className="w-full rounded-xl"
+  alt="library shelf"
+  src="/static/images/posts/onPremise.jpg"
+  layout="responsive"
+  width={450}
+  height={250}
+/>
+
+_Above Diagram shows an on premise architecture for a social media application like facebook._
+
+Below given the AWS equivalent.
+
+<Image
+  className="w-full rounded-xl"
+  alt="library shelf"
+  src="/static/images/posts/onAWS.jpg"
+  layout="responsive"
+  width={450}
+  height={250}
+/>
+
+Account level services are not included. IAM, Billing, API Gateway sits in front of VPC etc etc.
+
+[Introduction to AWS Services](https://www.youtube.com/watch?v=Z3SYDTMP3ME) 👈🏻👈🏻👈🏻 Watch this video for better understanding of how it all map together.
+And all these happen inside one Region. If you want to do the same in another region use some Iaac service ie terraform like.
+
+**AWS networking diagram - how all of it fit together.**
 
 Using AWS tools, Auto Scaling, and Elastic Load Balancing, your application can scale up or down based on demand. Backed by Amazon’s massive infrastructure, you have access to compute and storage resources when you need them.
 
@@ -28,17 +61,10 @@ Using AWS tools, Auto Scaling, and Elastic Load Balancing, your application can 
   alt="library shelf"
   src="/static/images/posts/aws-how.svg"
   layout="responsive"
-  width={1000}
-  height={600}
+  width={450}
+  height={250}
 />
-
-AWS is designed to allow application providers, ISVs, and vendors to quickly and securely host your applications – whether an existing application or a new SaaS-based application. You can use the AWS Management Console or well-documented web services APIs to access AWS’s application hosting platform.
-
-AWS enables you to select the operating system, programming language, web application platform, database, and other services you need. With AWS, you receive a virtual environment that lets you load the software and services your application requires. This eases the migration process for existing applications while preserving options for building new solutions.
-
-You pay only for the compute power, storage, and other resources you use, with no long-term contracts or up-front commitments.
-
-[Introduction to AWS Services](https://www.youtube.com/watch?v=Z3SYDTMP3ME)
+*Zoom in Above diagram its SVG*☝️
 
 | Service               | Should have been called                           | Use this to                                                                                                                                                                                                                                    | It's like                                                                                                                   |
 | --------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
