@@ -24,6 +24,10 @@ Like HTML, CSS is not a programming language. It's not a markup language either.
 CSS describes how HTML elements are to be displayed. HTML provides the structure, whereas CSS specified the document’s style, including layout, color, font and positioning.
 The browser loads the HTML, and converts it into a DOM (Document Object Model).The browser then fetches the resources linked within the HTML document, such as embedded images, video and CSS style sheets. From there, the browser parses the CSS to determine which rules should applied, and then attaches style to them as required. Once those decisions have been made, the structure the page should appear in after all rules have been applied is laid out in what is called a render tree. The render tree is the final blueprint, and once it is complete, the visual display of the page is show on the screen.
 
+```
+<link rel="stylesheet" href="style.css" >
+```
+
 ### Selectors
 
 Used to target elements
@@ -45,6 +49,6 @@ Something you'll notice about writing CSS: a lot of it is about boxes. This incl
 
 - Important - display properlyThis is a property automatically set by browser for elems differently, ex for div display: block, for span display: inlineFor inline elements width and height does not apply
 
-- Inline-block brings best of both worlds from block & InlineAnd there is display none. It takes element out of document, used in making website response and more.
+- Inline-block brings best of both worlds from block & InlineAnd there is display none. It takes element out of document, used in making website response and more. Inline-block elements give more flexibility interms of what we can tweak
 
 [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)

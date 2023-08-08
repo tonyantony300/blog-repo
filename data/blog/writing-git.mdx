@@ -19,8 +19,19 @@ canonicalUrl: https://www.google.com
 
 <TOCInline toc={props.toc} asDisclosure toHeading={3} />
 
-I wanna write about git.
-
 Version control software created by the Linux creator, the open source legend Linux Torvalds. It is made keeping in mind of multiple people contributing to the same code base. To avoid the conflict of developer changing each others code when working on same project, this was designed.
 
+[Tech Talk: Linus Torvalds on git](https://youtu.be/4XpnKHJAok8)
+
 Once a developer commit code to git repository, and pushed it to the remote, It is relatively hard to mess things up. Same amount or more difficulty involved when interacting with git also. It is so by design I believe. Every commits are tracked, recorded, retractable, tagged and all these happens in layered manner ie stage, commit and push.
+
+Here is a neat flow-chart of how to to get out of a mess in git if you made one.
+
+<Image
+  className="w-full rounded-xl"
+  alt="git mess flow chart"
+  src="/static/images/posts/git-pretty.png"
+  layout="responsive"
+  width={450}
+  height={250}
+/>
