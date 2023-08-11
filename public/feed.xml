@@ -7,9 +7,31 @@
       <language>en-us</language>
       <managingEditor>tonyantony300@gmail.com (Tony Antony)</managingEditor>
       <webMaster>tonyantony300@gmail.com (Tony Antony)</webMaster>
-      <lastBuildDate>Tue, 25 Jul 2023 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 07 Aug 2023 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://www.tonyantony.xyz/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://www.tonyantony.xyz/blog/css-101</guid>
+    <title>CSS 101</title>
+    <link>https://www.tonyantony.xyz/blog/css-101</link>
+    <description>
+Like HTML, CSS is not a programming language. It&#39;s not a markup language either. CSS is a style sheet language. CSS is what you use to selectively st...</description>
+    <pubDate>Mon, 07 Aug 2023 00:00:00 GMT</pubDate>
+    <author>tonyantony300@gmail.com (Tony Antony)</author>
+    <category>UI</category><category>CSS</category><category>HTML</category>
+  </item>
+
+  <item>
+    <guid>https://www.tonyantony.xyz/blog/on-deployment</guid>
+    <title>Final Frontier</title>
+    <link>https://www.tonyantony.xyz/blog/on-deployment</link>
+    <description>
+Multiple ways to get your thing out to people. I have used AWS S3 hosting with Gitlab CI/CD, Vercel (git=&gt; github =&gt; hosting ), Netifly(including Dra...</description>
+    <pubDate>Mon, 31 Jul 2023 00:00:00 GMT</pubDate>
+    <author>tonyantony300@gmail.com (Tony Antony)</author>
+    <category>Deployment</category>
+  </item>
+
   <item>
     <guid>https://www.tonyantony.xyz/blog/aws-how</guid>
     <title>AWS What?</title>
@@ -59,9 +81,7 @@ Typical adult English speakers have some 20,000 words in their vocabulary. Few p
     <title>The code vault</title>
     <link>https://www.tonyantony.xyz/blog/writing-git</link>
     <description>
-I wanna write about git.
-
-Version control software created by the Linux creator, the open source legend Linux Torvalds. It is made keeping in mind of...</description>
+Version control software created by the Linux creator, the open source legend Linux Torvalds. It is made keeping in mind of multiple people contribut...</description>
     <pubDate>Mon, 29 May 2023 00:00:00 GMT</pubDate>
     <author>tonyantony300@gmail.com (Tony Antony)</author>
     <category>Version-control</category><category>git</category>
