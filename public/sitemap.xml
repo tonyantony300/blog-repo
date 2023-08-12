@@ -41,11 +41,11 @@
   </url>
 
   <url>
-    <loc>https://www.tonyantony.xyz/tags/component-based-ui</loc>
+    <loc>https://www.tonyantony.xyz/tags/cloud-computing</loc>
   </url>
 
   <url>
-    <loc>https://www.tonyantony.xyz/tags/cloud-computing</loc>
+    <loc>https://www.tonyantony.xyz/tags/component-based-ui</loc>
   </url>
 
   <url>
@@ -97,11 +97,15 @@
   </url>
 
   <url>
+    <loc>https://www.tonyantony.xyz/tags/software-engineering</loc>
+  </url>
+
+  <url>
     <loc>https://www.tonyantony.xyz/tags/startup</loc>
   </url>
 
   <url>
-    <loc>https://www.tonyantony.xyz/tags/software-engineering</loc>
+    <loc>https://www.tonyantony.xyz/tags/tech</loc>
   </url>
 
   <url>
@@ -113,14 +117,10 @@
   </url>
 
   <url>
-    <loc>https://www.tonyantony.xyz/tags/vue</loc>
-  </url>
-
-  <url>
-    <loc>https://www.tonyantony.xyz/tags/tech</loc>
-  </url>
-
-  <url>
     <loc>https://www.tonyantony.xyz/tags/virtual-dom</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/tags/vue</loc>
   </url>
 </urlset>
