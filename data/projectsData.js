@@ -8,6 +8,23 @@ const projectsData = [
     projecturl: 'https://smartpage300.netlify.app/',
   },
   {
+    name: 'Cost Estimator',
+    description: 'A static cost estimator implementaion with vanilla CSS',
+    img: '/static/images/projects/cost-estimator.png',
+    tech: ['HTML', 'CSS'],
+    githuburl: 'https://github.com/tonyantony300/crispy-winner',
+    projecturl: 'https://lively-lokum-9ac19b.netlify.app/',
+  },
+
+  {
+    name: 'Blog post',
+    description: 'A static blog page done with just CSS',
+    img: '/static/images/projects/blog-post.png',
+    tech: ['HTML', 'CSS'],
+    githuburl: 'https://github.com/tonyantony300/crispy-winner',
+    projecturl: 'https://rococo-quokka-1e981c.netlify.app/',
+  },
+  {
     name: 'Forkify',
     description: 'Pure MVC Food recipie search and display application',
     img: '/static/images/projects/forkify.png',
@@ -23,22 +40,7 @@ const projectsData = [
     githuburl: 'https://github.com/tonyantony300/workout',
     projecturl: 'https://bucolic-lokum-8329ac.netlify.app/',
   },
-  {
-    name: 'Weather widget',
-    description: 'A widget to fetch weather data from AccuweatherApi',
-    img: '/static/images/projects/weather.png',
-    tech: ['ReactJS', 'HTML', 'CSS'],
-    githuburl: 'https://brilliant-taffy-7d9560.netlify.app/',
-    projecturl: 'https://brilliant-taffy-7d9560.netlify.app/',
-  },
-  {
-    name: 'Chat App',
-    description: 'WhatsApp clone with different UI, built for mobile display',
-    img: '/static/images/projects/chat.png',
-    tech: ['ReactJS', 'HTML', 'CSS'],
-    githuburl: 'https://github.com/tonyantony300/ChatApp',
-    projecturl: 'https://chatappuiblack.netlify.app',
-  },
+ 
   {
     name: 'Travel Website',
     description: 'A Dynamic home page for travel web application',
@@ -47,14 +49,24 @@ const projectsData = [
     githuburl: 'https://github.com/tonyantony300/travel',
     projecturl: 'https://mywebsite300.netlify.app',
   },
+
   {
-    name: 'Prompt test',
-    description: 'An attempt to generate web app using only AI prompts under 3 hours',
-    img: '/static/images/projects/revo.png',
-    tech: ['ReactJS', 'HTML', 'CSS', 'ChatGpt'],
-    githuburl: 'https://github.com/tonyantony300/friendly-bassoon',
-    projecturl: 'https://friendly-bassoon-zeta.vercel.app',
+    name: 'Artist Portfolio',
+    description: 'A static porfolio page done with just CSS',
+    img: '/static/images/projects/artist-portfolio.png',
+    tech: ['HTML', 'CSS'],
+    githuburl: 'https://github.com/tonyantony300/crispy-winner',
+    projecturl: 'https://dulcet-tartufo-c12503.netlify.app/',
   },
+  {
+    name: 'Weather widget',
+    description: 'A widget to fetch weather data from AccuweatherApi',
+    img: '/static/images/projects/weather.png',
+    tech: ['ReactJS', 'HTML', 'CSS'],
+    githuburl: 'https://brilliant-taffy-7d9560.netlify.app/',
+    projecturl: 'https://brilliant-taffy-7d9560.netlify.app/',
+  },
+ 
  
 ]
 

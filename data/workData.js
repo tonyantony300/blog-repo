@@ -21,10 +21,10 @@ const workData = [
     ],
   },
   {
-    company: 'Freelance',
+    company: 'React Web developer',
     role: [
       {
-        title: 'React Web developer',
+        title: '',
         monthYearStart: 'Feb 2022',
         monthYearEnd: 'Aug 2022',
         jobDescription: [
