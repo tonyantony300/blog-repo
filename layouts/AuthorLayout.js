@@ -16,10 +16,10 @@ export default function AuthorLayout({ children, frontMatter }) {
           </h1>
           <div>
           <a href="https://linktr.ee/tony_antny" className="bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 mr-2 px-4 rounded" download>
-           Check Credentials
+           Credentials
           </a>
           <a href="/resume/Tony Antony.pdf" className="bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 px-4  rounded" download>
-            Download Resume
+            Resume
           </a>
         </div>
         </div>

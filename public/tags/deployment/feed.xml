@@ -1,0 +1,25 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Tony Antony | Engineer, Full-stack developer</title>
+      <link>https://www.tonyantony.xyz/blog</link>
+      <description>Tony Antony&#39;s Digital Garden.</description>
+      <language>en-us</language>
+      <managingEditor>tonyantony300@gmail.com (Tony Antony)</managingEditor>
+      <webMaster>tonyantony300@gmail.com (Tony Antony)</webMaster>
+      <lastBuildDate>Mon, 31 Jul 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.tonyantony.xyz/tags/deployment/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.tonyantony.xyz/blog/on-deployment</guid>
+    <title>Final Frontier</title>
+    <link>https://www.tonyantony.xyz/blog/on-deployment</link>
+    <description>
+Multiple ways to get your thing out to people. I have used AWS S3 hosting with Gitlab CI/CD, Vercel (git=&gt; github =&gt; hosting ), Netifly(including Dra...</description>
+    <pubDate>Mon, 31 Jul 2023 00:00:00 GMT</pubDate>
+    <author>tonyantony300@gmail.com (Tony Antony)</author>
+    <category>Deployment</category>
+  </item>
+
+    </channel>
+  </rss>

@@ -7,20 +7,18 @@
       <language>en-us</language>
       <managingEditor>tonyantony300@gmail.com (Tony Antony)</managingEditor>
       <webMaster>tonyantony300@gmail.com (Tony Antony)</webMaster>
-      <lastBuildDate>Sun, 23 Jul 2023 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 25 Jul 2023 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://www.tonyantony.xyz/tags/cloud-computing/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
     <guid>https://www.tonyantony.xyz/blog/aws-how</guid>
-    <title>AWS how?</title>
+    <title>AWS What?</title>
     <link>https://www.tonyantony.xyz/blog/aws-how</link>
     <description>
-[AWS](https://miparnisariblog.files.wordpress.com/2023/03/aws-networking-1.png)
-
-![](`https://miparnisariblog.files.wordpress.com/2023/03/aws-network...</description>
-    <pubDate>Sun, 23 Jul 2023 00:00:00 GMT</pubDate>
+AWS is designed to allow application providers, ISVs, and vendors to quickly and securely host your applications – whether an existing application or...</description>
+    <pubDate>Tue, 25 Jul 2023 00:00:00 GMT</pubDate>
     <author>tonyantony300@gmail.com (Tony Antony)</author>
-    <category>cloud computing</category><category>AWS</category>
+    <category>AWS</category><category>cloud-computing</category>
   </item>
 
     </channel>

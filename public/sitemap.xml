@@ -53,7 +53,15 @@
   </url>
 
   <url>
+    <loc>https://www.tonyantony.xyz/tags/css</loc>
+  </url>
+
+  <url>
     <loc>https://www.tonyantony.xyz/tags/data-structure</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/tags/deployment</loc>
   </url>
 
   <url>
@@ -61,11 +69,15 @@
   </url>
 
   <url>
+    <loc>https://www.tonyantony.xyz/tags/frameworks</loc>
+  </url>
+
+  <url>
     <loc>https://www.tonyantony.xyz/tags/git</loc>
   </url>
 
   <url>
-    <loc>https://www.tonyantony.xyz/tags/frameworks</loc>
+    <loc>https://www.tonyantony.xyz/tags/html</loc>
   </url>
 
   <url>
@@ -81,11 +93,11 @@
   </url>
 
   <url>
-    <loc>https://www.tonyantony.xyz/tags/react</loc>
+    <loc>https://www.tonyantony.xyz/tags/software-engineering</loc>
   </url>
 
   <url>
-    <loc>https://www.tonyantony.xyz/tags/software-engineering</loc>
+    <loc>https://www.tonyantony.xyz/tags/react</loc>
   </url>
 
   <url>
@@ -94,6 +106,10 @@
 
   <url>
     <loc>https://www.tonyantony.xyz/tags/tech</loc>
+  </url>
+
+  <url>
+    <loc>https://www.tonyantony.xyz/tags/ui</loc>
   </url>
 
   <url>
